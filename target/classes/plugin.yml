@@ -1,0 +1,24 @@
+name: myfirstplugin
+version: '1.0-SNAPSHOT'
+main: gwnjesse.myfirstplugin.WeedCraft
+api-version: '1.21'
+commands:
+  weedseed:
+    description: Gives a Weed Seed for testing
+  balance:
+    description: Shows your weedcraft balance
+  makeweeddealer:
+    description: Turns the villager you look at into a Weed Dealer
+  weedshop:
+    description: Opens the resistance shop
+  spawnshopclerk:
+    description: Spawn a piglin shop clerk at your location
+  setpropertyprice:
+    description: '[ADMIN] Set price on door you are looking at'
+  getpropertyprice:
+    description: '[ADMIN] Get price of door you are looking at'
+  confirmproperty:
+    description: '[INTERNAL] Confirm pending property purchase'
+  cancelproperty:
+    description: Cancel pending property purchase
+

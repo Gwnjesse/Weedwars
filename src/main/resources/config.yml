@@ -1,0 +1,6 @@
+# Default config for WeedCraft plugin
+# Balances are stored under `balances.<player-uuid>` automatically.
+balances: {}
+
+# Default sell price (kept for future config usage)
+price-per-bud: 20
